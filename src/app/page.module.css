@@ -1,0 +1,102 @@
+.main {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding: 32px 20px;
+  background:
+    radial-gradient(circle at 15% 10%, var(--canvas-glow), transparent 34rem),
+    var(--canvas);
+}
+
+.card {
+  width: min(680px, 100%);
+  padding: clamp(32px, 7vw, 64px);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  background: var(--surface-translucent);
+  box-shadow: var(--shadow-soft);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--ink);
+  font-size: 17px;
+  font-weight: 760;
+  letter-spacing: -0.025em;
+}
+
+.mark {
+  width: 34px;
+  height: 34px;
+}
+
+.eyebrow {
+  margin-top: 52px;
+  color: var(--green-strong);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.card h1 {
+  max-width: 570px;
+  margin-top: 14px;
+  color: var(--ink);
+  font-size: clamp(38px, 7vw, 62px);
+  font-weight: 760;
+  letter-spacing: -0.055em;
+  line-height: 0.98;
+}
+
+.intro {
+  max-width: 570px;
+  margin-top: 24px;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 32px;
+  padding: 13px 18px;
+  border-radius: 12px;
+  background: var(--green);
+  color: var(--on-accent);
+  font-size: 14px;
+  font-weight: 750;
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.cta:hover {
+  background: var(--green-hover);
+  transform: translateY(-1px);
+}
+
+.note {
+  margin-top: 22px;
+  color: var(--muted-soft);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+@media (max-width: 520px) {
+  .card {
+    border-radius: 22px;
+  }
+
+  .eyebrow {
+    margin-top: 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cta {
+    transition: none;
+  }
+}

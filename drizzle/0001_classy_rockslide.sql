@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "proposals_conversation_idea_unique" ON "proposals" USING btree ("conversation_id","idea_id");

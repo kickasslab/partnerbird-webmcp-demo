@@ -1,0 +1,2 @@
+ALTER TABLE "webmcp_partnership_requests" ADD COLUMN "withdraw_idempotency_key" varchar(100);--> statement-breakpoint
+CREATE UNIQUE INDEX "webmcp_requests_sender_withdraw_key_unique" ON "webmcp_partnership_requests" USING btree ("sender_profile_id","withdraw_idempotency_key");

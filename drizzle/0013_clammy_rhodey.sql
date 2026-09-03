@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "webmcp_requests_active_pair_unique" ON "webmcp_partnership_requests" USING btree ("sender_profile_id","recipient_profile_id") WHERE "webmcp_partnership_requests"."status" = 'submitted';

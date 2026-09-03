@@ -1,0 +1,146 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1788012285852,
+      "tag": "0000_dapper_arachne",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1788014021007,
+      "tag": "0001_classy_rockslide",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1788015111070,
+      "tag": "0002_lean_cable",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1788062766322,
+      "tag": "0003_unknown_killer_shrike",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1788064128762,
+      "tag": "0004_activation-statuses",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1788069000000,
+      "tag": "0005_profile_data_consistency",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1788069501558,
+      "tag": "0006_profile_theme_colors",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1788074226584,
+      "tag": "0007_bent_exiles",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1788104932137,
+      "tag": "0008_numerous_hellfire_club",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1788242516177,
+      "tag": "0009_gray_vin_gonzales",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1788244560886,
+      "tag": "0010_atomic_usage_reservation",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1788408565842,
+      "tag": "0011_furry_living_lightning",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1788418129110,
+      "tag": "0012_large_taskmaster",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1788418174713,
+      "tag": "0013_clammy_rhodey",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1788418371282,
+      "tag": "0014_flaky_spyke",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1788420669955,
+      "tag": "0015_large_natasha_romanoff",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1788422390935,
+      "tag": "0016_bright_celestials",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1788424369367,
+      "tag": "0017_remove_demo_project_references",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1788437511724,
+      "tag": "0018_enable-darren-webmcp-demo",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1788440831520,
+      "tag": "0019_webmcp_agent_handoffs",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+.shell {
+  min-height: 100svh;
+  background: var(--canvas);
+}
+
+.header {
+  position: sticky;
+  z-index: 20;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  min-height: 68px;
+  padding: 12px clamp(18px, 4vw, 48px);
+  border-bottom: 1px solid var(--border);
+  background: var(--header-surface);
+  backdrop-filter: blur(16px);
+}
+
+.brand,
+.header nav,
+.header form {
+  display: flex;
+  align-items: center;
+}
+
+.brand {
+  gap: 9px;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 760;
+  letter-spacing: -0.025em;
+}
+
+.mark {
+  width: 30px;
+  height: 30px;
+}
+
+.header nav {
+  gap: 10px;
+}
+
+.header nav a,
+.header nav button {
+  min-height: 36px;
+  padding: 8px 11px;
+  border: 1px solid var(--border-strong);
+  border-radius: 9px;
+  background: var(--surface);
+  color: var(--ink-soft);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.main {
+  width: min(1120px, calc(100% - 36px));
+  margin: 0 auto;
+  padding: 42px 0 72px;
+}
+
+@media (max-width: 620px) {
+  .brand span {
+    display: none;
+  }
+
+  .header nav {
+    gap: 6px;
+  }
+
+  .header nav a,
+  .header nav button {
+    padding-inline: 9px;
+  }
+}
