@@ -191,9 +191,9 @@ Judges can review the implementation directly:
 - [WebMCP tests](src/lib/webmcp) and [end-to-end spec](tests/e2e/webmcp.spec.ts)
 - [AI cost boundary test](src/server/webmcp/ai-boundary.test.ts)
 
-## Existing project disclosure
+## Disclosure
 
-PartnerBird existed before this challenge. This repository is a separate,
+This repository is a separate,
 sanitized edition derived from the existing codebase and focused specifically
 on the WebMCP implementation. It intentionally omits the production admin/CMS,
 owner dashboard, billing/subscription UI, analytics, broad marketing site,
